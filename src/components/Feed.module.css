@@ -1,0 +1,66 @@
+.wrapper {
+  padding: 6em;
+  min-width: 700px;
+}
+
+.wrapper header {
+  display: flex;
+  width: 80%;
+  justify-content: flex-end;
+  margin-bottom: 1em;
+}
+
+.wrapper header button {
+}
+.postBtn {
+  /* border: 2px solid red; */
+  border: none;
+  background-color: #007acc;
+  color: white;
+  padding: 0.4em 2em;
+  border-radius: 10px;
+}
+
+.wrapper textarea {
+  height: 80px;
+  width: 60%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid rgba(1, 1, 1, 0.2);
+  resize: none;
+}
+
+.wrapper section {
+  padding-top: 2em;
+}
+
+.wrapper section article {
+  border: 1px solid rgba(1, 1, 1, 0.1);
+  box-shadow: 1px 1px 10px rgba(1, 1, 1, 0.1);
+  padding: 1em;
+  border-radius: 5px;
+  width: 60%;
+  margin-bottom: 1em;
+  background-color: white;
+}
+
+.wrapper section article .time {
+  margin-top: 0.5em;
+  color: rgba(1, 1, 1, 0.6);
+  font-size: 0.8rem;
+}
+
+.wrapper section article .body .user {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1em;
+}
+
+.wrapper section article .body .user .img {
+  display: inline-block;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  background-color: rgba(1, 1, 1, 0.3);
+  margin-right: 10px;
+}

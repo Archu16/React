@@ -1,0 +1,17 @@
+.wrapper a {
+  font-size: 0.9rem;
+  color: #1976d2;
+}
+
+.wrapper a:visited {
+  color: #1976d2;
+}
+
+.wrapper form p {
+  color: red;
+  margin-top: -2px;
+}
+
+.wrapper form input {
+  width: 500px;
+}

@@ -1,0 +1,28 @@
+.wrapper {
+  width: 100%;
+}
+
+.wrapper .hero {
+  width: 100%;
+}
+.carousel{
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 40px;
+}
+.wrapper .hero img {
+  width: 100%;
+}
+
+.wrapper section {
+  padding: 6em;
+}
+
+.socialBenefits{
+  margin-top: 50px;
+  margin-left: 30px;
+}
+
+.socialBenefits p{
+  font-weight: 800;
+}

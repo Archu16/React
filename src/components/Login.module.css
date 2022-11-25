@@ -1,0 +1,17 @@
+.wrapper a {
+  font-size: 0.9rem;
+  color: #1976d2;
+}
+
+.wrapper a:visited {
+  color: #1976d2;
+}
+
+.wrapper form div.error {
+  margin-top: -1px;
+  color: red;
+}
+
+.wrapper form input {
+  width: 400px;
+}

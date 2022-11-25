@@ -1,0 +1,63 @@
+.wrapper {
+}
+
+.wrapper section {
+  padding-inline: 6em;
+  display: flex;
+  align-items: flex-end;
+
+  background-color: #3b536f;
+  height: 3em;
+}
+
+.wrapper section article {
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 2px;
+  width: 10em;
+  cursor: pointer;
+}
+
+.wrapper section article {
+  background-color: #7295bc;
+  padding-inline: 10px;
+  color: white;
+}
+
+.wrapper section article.active {
+  background-color: white;
+  color: #3b536f;
+}
+
+.wrapper section {
+  position: relative;
+}
+
+.wrapper section button {
+  position: absolute;
+  right: 6em;
+  bottom: 0;
+  color: white;
+  background-color: rgb(233, 122, 102);
+  border: none;
+  display: flex;
+  align-items: center;
+  height: 35px;
+  cursor: pointer;
+}
+
+.wrapper form label {
+  display: block;
+  border: 1px solid red;
+}
+
+textarea {
+  resize: none;
+  height: 200px;
+  border: 1px solid rgba(1, 1, 1, 0.1);
+  width: 500px;
+  margin-top: 1em;
+  padding: 10px;
+}

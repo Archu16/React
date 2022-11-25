@@ -1,0 +1,8 @@
+.wrapper {
+  padding-inline: 4em;
+  padding-bottom: 2em;
+}
+
+.wrapper h1 {
+  font-size: 1.3rem;
+}

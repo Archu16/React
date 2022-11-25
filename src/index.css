@@ -1,0 +1,21 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+.react-chatbot-kit-chat-container {
+  width: 450px !important;
+  z-index: 100 !important;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px rgba(1, 1, 1, 0.3);
+}
+
+.react-chatbot-kit-chat-header {
+  border-radius: 10px;
+}

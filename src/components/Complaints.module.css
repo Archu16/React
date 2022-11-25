@@ -1,0 +1,23 @@
+.wrapper {
+  padding: 6em;
+}
+
+.wrapper article {
+  margin-bottom: 1em;
+  background-color: white;
+  border: 1px solid rgba(1, 1, 1, 0.1);
+  padding: 1em;
+  border-radius: 5px;
+  box-shadow: 1px 1px 10px rgba(1, 1, 1, 0.1);
+  width: 60%;
+}
+
+.wrapper article .body {
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+}
+
+.wrapper article .datetime {
+  font-size: 0.8rem;
+  color: rgba(1, 1, 1, 0.8);
+}
